@@ -1,80 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title> the frot-end of web devolepment</title>
-    <!-- title -->
-    <form action="">
-        <label for="search"> search </label>
-        <input type="text" name="" id="search" size="50">
-        <select>
-            <option> html </option>
-            <option> css </option>
-            <option> jacescript </option>
-        </select>
-        <!-- seach engine and imput select -->
-    </form>
-    <h1> front-end web developing</h1>
-    <p>A Front-End Developer is responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages.
-    </p>
-    <audio controls ><source src="premade_Adam.mp3" type="audio/mpeg"></audio>
-    <!-- audio -->
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <title>The Front-End of Web Development</title>
 </head>
-<h2>this is the order in wich you creat a front-end website</h2>
-<br>
 
-<body bgcolor="grey">
-    <ol>
-        <li> html </li>
-        <li> css </li>
-        <li> jacescript </li>
-    </ol>
-    <!-- order list -->
-    <br>
-    <dl>
-        <dt> html </dt>
-        <dd> the structer of the page </dd>
-        <dt> css </dt>
-        <dd> the style of the page </dd>
-        <dt> javescript </dt>
-        <dd> a computer programming lauguage </dd>
-    </dl>
-    <!-- discriptive list -->
-    <br>
-    <img src="all.png" alt="html" width="600" height="250">
-    <!-- image -->
-    <br>
-    <br>
-    <br>
-    <iframe width="610" height="315" src="https://www.youtube.com/embed/UlG62IXqa5k" title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-        <!-- iframe -->
-        <h2> these are the applicatio in wich you can write code </h2>
-    <ul>
-        <li> visual studio code </li>
-        <li> vim </li>
-        <li> bluefish </li>
-        <li> textmate </li>
-    </ul>
-    <!-- unorderd list -->
+<body>
+    <header>
+        <form action="" class="search">
+            <label for="search">Search:</label>
+            <input type="text" name="" id="search" size="50">
+        </form>
+    </header>
+    <div class="select">
+        <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select>
+    </div>
+
+    <div class="introduction">
+        <h1>Front-End Web Development</h1>
+        <p>A Front-End Developer is responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages.</p>
+    </div>
+    <div class="container">
+             <div class="orderlist">
+            <h2>Order in which you create a front-end website</h2>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+            <img class="image" src="all.png" alt="html" width="50%" height="250">
+        </div>
+    
+        <div class="discriptivelist">
+            <h1>Description of Fields</h1>
+            <dl>
+                <dt>HTML</dt>
+                <dd>The structure of the page</dd>
+                <dt>CSS</dt>
+                <dd>The style of the page</dd>
+                <dt>JavaScript</dt>
+                <dd>A computer programming language</dd>
+            </dl>
+            <iframe class="iframe" width="50%" height="200" src="https://www.youtube.com/embed/UlG62IXqa5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>   
+    </div>
+    <div class="lis">
+        <h2>These are the applications in which you can write code</h2>
+        <ul>
+            <li>Visual Studio Code</li>
+            <li>Vim</li>
+            <li>Bluefish</li>
+            <li>Textmate</li>
+        </ul>
+    </div>
+
+    <div class="table">
+        <h3>This is my information if you want to reach me</h3>
+        <table border="1" class="table">
+            <tr>
+                <th>Facebook</th>
+                <th>Email</th>
+                <th>Instagram</th>
+            </tr>
+            <tr>
+                <td>mehdi chaaki</td>
+                <td>mehdichaaki@gmail.com</td>
+                <td>@mehdichhaki</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="audio">
+        <audio controls>
+            <source src="premade_Adam.mp3" type="audio/mpeg">
+        </audio>
+    </div>
 </body>
-<footer>
-    <h3>this is my information if you want to reach me</h3>
-<table border="A">
-    <tr>
-        <th> facebook </th>
-        <th> r-mail </th>
-        <th> instagram </th>
-    </tr>
-    <tr>
-         <td> mehdi chaaki </td>
-         <td> mehdichaaki@gmail.com </td>
-         <td> @mehdichhaki </td>
-    </tr>
-    <!-- table -->
-</table>
-</footer>
 
 </html>
